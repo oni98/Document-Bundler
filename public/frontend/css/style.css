@@ -1,0 +1,185 @@
+/* all fontsize  css here  */
+.fz-50 {
+    font-size: 50px;
+}
+.fz-24 {
+    font-size: 24px;
+}
+.fz-40 {
+    font-size: 40px;
+}
+.fz-20 {
+    font-size: 20px;
+}
+
+/* all height here  */
+.mh-500{
+    min-height: 500px;
+}
+
+/* all background here  */
+.section-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-color-1 {
+    background-color: #F0F0F0;
+}
+.bg-color-2 {
+    background-color: #2F3242;
+}
+
+/* all button here  */
+.btn:focus {
+    box-shadow: none;
+}
+.btn.btn-primary{
+    display: inline-block;
+    border-radius: 10px 30px;
+    background-color: #e9f545;
+    border: none;
+    color: #000;
+    text-align: center;
+    font-size: 22px;
+    padding: 8px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* all margin here  */
+.mt-50-2 {
+    margin-top: -50px;
+}
+
+/* all font weight here  */
+.fw-600 {
+    font-weight: 600;
+}
+
+/* all box shadow here  */
+.shadow-1 {
+	box-shadow: 0px 4px 20px rgba(27,28,29,.12);
+}
+
+/* all border here  */
+.bdr-right-1 {
+	border-right: 1px solid #dfdfdf;
+}
+
+/* all padding here  */
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.text-shadow-1{
+    text-shadow: 2px 2px yellow;
+}
+
+/* section css  */
+.footer-link ul li a {
+	padding-left: 0;
+	color: #2d2d2d !important;
+	padding-bottom: 0;
+}
+
+/* header css  */
+.custom-navbar .navbar-nav li a {
+	display: inline-block;
+	border-radius: 2px 20px;
+	background-color: #cee407d8;
+	border: none;
+	color: #000;
+	text-align: center;
+	padding: 2px;
+	width: auto;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	padding: 14px 16px !important;
+}
+.custom-navbar .navbar-nav li a:hover {
+	background-color: rgba(191, 223, 199, 0.61);
+	color: rgb(2, 43, 2);
+	border-radius: 1px 30px;
+	width: auto;
+}
+
+/* Custom Links */
+.links{
+    text-decoration: none;
+}
+
+/* pricing  */
+.pricing-item ul li {
+	padding: 15px 0;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+/* sorry page  */
+.sorry-svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -400px;
+}
+.message-box {
+    height: 200px;
+    width: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: 50px;
+    font-weight: 300;
+}
+#Polygon-1 , #Polygon-2 , #Polygon-3 , #Polygon-4 , #Polygon-4, #Polygon-5 {
+    animation: float 1s infinite ease-in-out alternate;
+}
+#Polygon-2 {
+    animation-delay: .2s;
+}
+#Polygon-3 {
+    animation-delay: .4s;
+}
+#Polygon-4 {
+    animation-delay: .6s;
+}
+#Polygon-5 {
+    animation-delay: .8s;
+}
+@keyframes float {
+    100% {
+        transform: translateY(20px);
+   }
+}
+@media (max-width: 450px) {
+    .sorry-svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -250px;
+        margin-left: -190px;
+   }
+    .message-box {
+        top: 50%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -190px;
+        text-align: center;
+   }
+}
+
+
+/* responsive css start  */
+@media (max-width: 767px) {
+    .fz-30sm {
+        font-size: 30px;
+    }
+    .bdr-right-1 {
+        border-right: 0;
+        border-bottom: 1px solid #dfdfdf;
+    }
+}
